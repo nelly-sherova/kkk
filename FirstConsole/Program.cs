@@ -6,7 +6,7 @@ namespace firstConsole
     {
         static void Main(string[] args)
         {
-            {
+            /*{
                 Console.WriteLine("Задание 1");
                 Console.Write("a = "); double a = Convert.ToDouble(Console.ReadLine());
                 Console.Write("b = "); double b = Convert.ToDouble(Console.ReadLine());
@@ -20,7 +20,14 @@ namespace firstConsole
                 double ac = Math.Abs(c - a), bc = Math.Abs(c - b);
                 Console.WriteLine($"AC = {ac}, BC = {bc}");
                 Console.WriteLine($"{ac} + {bc} = {ac + bc}");
-                
+            }*/
+            {
+                Console.WriteLine("Задание 3");
+                Console.Write("x1 = "); double x1 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("y1 = "); double y1 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"p = {Math.Sqrt(Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2))}");
             }
         }
     }
