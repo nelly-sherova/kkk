@@ -6,7 +6,12 @@ namespace firstConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            {
+                Console.WriteLine("Задание 1");
+                Console.Write("a = "); double a = Convert.ToDouble(Console.ReadLine());
+                Console.Write("b = "); double b = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine($"{Math.Sqrt(a * b)}");
+            }
         }
     }
 }
