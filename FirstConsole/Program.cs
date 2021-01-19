@@ -28,11 +28,19 @@ namespace firstConsole
                 Console.Write("x2 = "); double x2 = Convert.ToDouble(Console.ReadLine());
                 Console.Write("y2 = "); double y2 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine($"p = {Math.Sqrt(Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2))}");
-            }*/
+            }
             {
                 Console.WriteLine("Задание 4");
                 Console.Write("n = "); int n = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine((n % 10) * 10 + n / 10);
+            }
+            {
+                Console.WriteLine("Задание 5");
+                Console.Write("N = "); int n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(n/60);
+            }*/
+            {
+                
             }
         }
     }
