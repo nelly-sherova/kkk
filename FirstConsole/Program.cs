@@ -6,7 +6,7 @@ namespace firstConsole
     {
         static void Main(string[] args)
         {
-            /*{
+            {
                 Console.WriteLine("Задание 1");
                 Console.Write("a = "); double a = Convert.ToDouble(Console.ReadLine());
                 Console.Write("b = "); double b = Convert.ToDouble(Console.ReadLine());
@@ -38,9 +38,11 @@ namespace firstConsole
                 Console.WriteLine("Задание 5");
                 Console.Write("N = "); int n = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(n/60);
-            }*/
+            }
             {
-                
+                Console.WriteLine("Задание 6");
+                Console.Write("k = "); int k = Convert.ToInt32(Console.ReadLine());
+                Console.Write(k % 7);
             }
         }
     }
